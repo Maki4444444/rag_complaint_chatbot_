@@ -1,0 +1,44 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Environment variables / secrets ---
+.env
+.env.local
+*.key
+
+# --- Data (large files; keep raw/processed data out of git) ---
+data/raw/*
+data/processed/*
+
+
+# --- Vector store ---
+# NOTE: Task 2's persisted ChromaDB index is intentionally tracked in git
+# (the grading rubric requires the vector store to be observable in the
+# repository). Only exclude Chroma's internal lock/temp files.
+vector_store/*.lock
+vector_store/**/*.tmp
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.idea/
+
+# --- Build artifacts ---
+build/
+dist/
+*.egg-info/
