@@ -32,6 +32,8 @@ data/processed/*
 # repository). Only exclude Chroma's internal lock/temp files.
 vector_store/*.lock
 vector_store/**/*.tmp
+vector_store_sample/
+vector_store_full/
 
 # --- OS / Editor ---
 .DS_Store

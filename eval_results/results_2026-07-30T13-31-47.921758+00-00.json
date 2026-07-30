@@ -1,0 +1,542 @@
+{
+  "summary": {
+    "n_total": 18,
+    "n_scored": 0,
+    "avg_retrieval_relevance": null,
+    "avg_faithfulness": null,
+    "pct_faithful_ge_4": null,
+    "meets_faithfulness_target": false
+  },
+  "run_timestamp": "2026-07-30T13:31:47.921758+00:00",
+  "vector_store_dir": "./vector_store_full",
+  "collection_name": "complaints_full",
+  "top_k": 5,
+  "judge_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "generation_model": "default (src.generator.MODEL)",
+  "num_questions": 18,
+  "num_resumed": 0,
+  "rows": [
+    {
+      "id": "cc-01",
+      "category": "Credit Card",
+      "question": "Why are customers unhappy with their credit cards?",
+      "answer": "Customers are unhappy with their credit cards due to several reasons:\n- Credit limits being reduced without justification, which increases their credit usage.\n- Poor customer service and misinformation from customer service representatives.\n- Unexpected changes such as increased interest rates, which make it harder to pay off debts.\n- Lack of support during difficult times, with some customers feeling credit card companies should have helped more.\n- Feeling that credit card companies do not consider their long-term use as a sign of loyalty.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "8892605",
+          "product_category": "Credit Card",
+          "company": "DISCOVER BANK",
+          "issue": "Other features, terms, or problems",
+          "similarity_score": 0.4348,
+          "excerpt": "creditors. i have an exceptional payment history. there was no reason for them to reduce my credit limit at all doing so caused me harm by making my credit usage shoot up. what the is up with these co"
+        },
+        {
+          "complaint_id": "3856544",
+          "product_category": "Credit Card",
+          "company": "CITIBANK, N.A.",
+          "issue": "Fees or interest",
+          "similarity_score": 0.4237,
+          "excerpt": "h customers during these difficult time??? that is not our fault? credit card companies need to do what the government asked them to do help consumers during these difficult times."
+        }
+      ],
+      "generation_error": false,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b5227-545a066476e4d6a02a71d98f;12ec63d3-3e3d-41b7-b0d9-3002779a564a)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "cc-02",
+      "category": "Credit Card",
+      "question": "What fraud or unauthorized-charge issues are credit card customers reporting?",
+      "answer": "Credit card customers are reporting issues with fraudulent charges on their cards. These issues include:\n- Multiple cards (debit and credit) being stolen and used fraudulently.\n- Random charges found to be fraudulent.\n- Charges made to accounts that were clearly not theirs.\n- Delays in resolving disputes, with some creditors blaming the cardholder for the fraudulent charges.\n- Fraudulent charges being made to the same retailers or random locations.\n- The need to file police reports and provide documentation to resolve disputes.\n- Some credit card issuers being more reasonable to deal with in resolving fraud issues.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "5427299",
+          "product_category": "Credit Card",
+          "company": "UPGRADE, INC.",
+          "issue": "Problem with a purchase shown on your statement",
+          "similarity_score": 0.5447,
+          "excerpt": "on or around my cards including my debit card and 2 credit cards including an upgrade credit card were stolen and reported stolen from my wallet. i filed a police report the week i realized the cards "
+        },
+        {
+          "complaint_id": "1941325",
+          "product_category": "Credit Card",
+          "company": "CAPITAL ONE FINANCIAL CORPORATION",
+          "issue": "Closing/Cancelling account",
+          "similarity_score": 0.5149,
+          "excerpt": "re n't any fraudulent charges? are there any credit card issuers whose fraud departments are more reasonable to deal with?"
+        }
+      ],
+      "generation_error": false,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b5232-443552e07e784a6c1561e589;1bf708c1-dd62-4bbf-adeb-ab1475c516f5)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "cc-03",
+      "category": "Credit Card",
+      "question": "Are customers complaining about being charged duplicate or incorrect fees on their credit cards?",
+      "answer": "Yes, customers are complaining about being charged duplicate or incorrect fees on their credit cards. Examples include being charged twice for the same amount, being charged after a new card number was issued, and being charged an additional fee after being told the initial fee would be corrected.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "3110217",
+          "product_category": "Credit Card",
+          "company": "BARCLAYS BANK DELAWARE",
+          "issue": "Problem with a purchase shown on your statement",
+          "similarity_score": 0.4801,
+          "excerpt": "i presented my mastercard from barclays bank for payment at the restaurant in the at the , on 18 and asked them to apply it to the dining bill, charging me for one half and charging one half to anothe"
+        },
+        {
+          "complaint_id": "6903336",
+          "product_category": "Savings Account",
+          "company": "Chime Financial Inc",
+          "issue": "Managing an account",
+          "similarity_score": 0.4585,
+          "excerpt": "the merchant and everything was fine on their end. they instructed me to contact my bank and and let them know it was an incorrect charge. instead chime allowed my card to be- 200.00 . and when my dir"
+        }
+      ],
+      "generation_error": false,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b5233-5c956ba16048978662d80a13;e612cdf7-665a-4190-9357-ef9216bf5f39)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "cc-04",
+      "category": "Credit Card",
+      "question": "What complaints exist about credit card interest rate changes or billing disputes?",
+      "answer": "Complaints exist about credit card interest rate changes and billing disputes. Specifically, one customer complained about credit card interest rates being excessively high, even when the federal interest rate was at zero. Another customer had issues with an annual fee being imposed without prior notice, which they believed was unfair. A third customer alleged that the credit card company engaged in consumer fraud and dishonest billing practices. Additionally, a customer reported that Capital One did not respond to billing disputes within the required 30 days, violating consumer laws.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "3679403",
+          "product_category": "Credit Card",
+          "company": "CITIBANK, N.A.",
+          "issue": "Fees or interest",
+          "similarity_score": 0.4798,
+          "excerpt": "mes in one business day a consumer could be fined. over the years, all of those fees have crept back up to the inflated absurd levels typical of banks and credit unions today. so, my complaint is not "
+        },
+        {
+          "complaint_id": "6411758",
+          "product_category": "Credit Card",
+          "company": "U.S. BANCORP",
+          "issue": "Fees or interest",
+          "similarity_score": 0.4249,
+          "excerpt": "this complaint is for recent activity on of my credit accounts with u.s. bank, that i think the bank treated unfair and caused serious damage to my credit report. it is concerning the credit card endi"
+        }
+      ],
+      "generation_error": false,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b5235-2f480e3731d6708b08ee0548;cd7e594c-4b1f-4cdd-becd-d69d6bad0e8f)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "pl-01",
+      "category": "Personal Loan",
+      "question": "What are the main complaints about personal loans?",
+      "answer": "The main complaints about personal loans include:\n- Deceptive and misleading practices by the lender.\n- Predatory and unethical lending tactics that lead to past due accounts and unnecessary late fees and high interest.\n- Modification of loan agreements that create new account and credit line, which the lender promises to clean up but fails to do so.\n- Changes in the structure of the loan, such as turning a lower interest secured loan into a high interest personal loan without the borrower's consent or knowledge.\n- Lack of consideration for the borrower's financial difficulties, as seen in the case where the borrower needed a loan due to an economic disaster and had to close down their business.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "3911298",
+          "product_category": "Savings Account",
+          "company": "JPMORGAN CHASE & CO.",
+          "issue": "Managing an account",
+          "similarity_score": 0.4033,
+          "excerpt": "the ones issueing the loan, absolutely ridiculous. i needed this loan because of the economic disaster, and i lost so much business because i had to close down and could not work since i am considered"
+        },
+        {
+          "complaint_id": "4690990",
+          "product_category": "Personal Loan",
+          "company": "OneMain Finance Corporation",
+          "issue": "Problem with the payoff process at the end of the loan",
+          "similarity_score": 0.3525,
+          "excerpt": "throughout the years one main financial has been deceptive and misleading regarding a personal loan that i took out. they have predatory unethical lending tactics encouraging the account to go past du"
+        }
+      ],
+      "generation_error": false,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b5237-5d19f0b5459b2abd25fc1837;321055a4-cf29-47fc-9714-971fbf9ca247)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "pl-02",
+      "category": "Personal Loan",
+      "question": "Are customers reporting issues with personal loan repayment or servicing?",
+      "answer": "Yes, customers are reporting issues with personal loan repayment or servicing. Specifically, they are complaining about not receiving detailed payment information, incorrect reporting of payments, and delays in addressing their concerns.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "2823113",
+          "product_category": "Personal Loan",
+          "company": "Lendmark Financial Services",
+          "issue": "Problem when making payments",
+          "similarity_score": 0.3932,
+          "excerpt": "took out a personal loan with lendmark financial services in 2017. since, the statements we have received does not include payment information, interest charge or balances, only how much more we shoul"
+        },
+        {
+          "complaint_id": "7625666",
+          "product_category": "Money Transfer",
+          "company": "AMERICAN EXPRESS COMPANY",
+          "issue": "Money was not available when promised",
+          "similarity_score": 0.3346,
+          "excerpt": "e to them on , when i called back on , in response to my direct inquiry, i was told that did not have any record on my account of any steps that they had taken since to get their funds back. but wait,"
+        }
+      ],
+      "generation_error": false,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b5238-4c6b4cc8711bb6f14351199a;30e5badd-191b-4695-99eb-be6ca807feae)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "pl-03",
+      "category": "Personal Loan",
+      "question": "What complaints mention being denied a personal loan unfairly?",
+      "answer": "[Excerpt 1] mentions being denied a personal loan unfairly. The customer has been with the company for over two years and feels that their long-term relationship with the company should qualify them for a personal loan, but the representative refused to reconsider the denial.\n\n[Excerpt 3] also mentions being denied a personal loan unfairly. The customer passed all credit criteria and provided all needed documentation, but was later notified that they would not get the loan.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "8756059",
+          "product_category": "Personal Loan",
+          "company": "SUN LOAN COMPANY INC.",
+          "issue": "Getting the loan",
+          "similarity_score": 0.4782,
+          "excerpt": "ut again to clarify my situation, but the representative refused to reconsider, citing 's classification as a as the reason for the loan denial. i have been with as an for more than two years, and the"
+        },
+        {
+          "complaint_id": "10358351",
+          "product_category": "Money Transfer",
+          "company": "ENOVA INTERNATIONAL, INC.",
+          "issue": "Fraud or scam",
+          "similarity_score": 0.4344,
+          "excerpt": "received a denial for a loan application i did not ask for. did not apply for a loan."
+        }
+      ],
+      "generation_error": false,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b523a-6f20e1f21e81d45d5dd9bac8;18b037c2-0429-4f07-9db4-00b2d02822b8)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "pl-04",
+      "category": "Personal Loan",
+      "question": "Do customers report unclear or misleading personal loan terms?",
+      "answer": "Yes, customers report unclear or misleading personal loan terms. This is evident from Excerpts 1, 3, and 4, where customers express concerns about not being fully informed about loan conditions and terms, and one customer specifically mentions receiving unclear and misleading information about the terms of their personal loan.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "4041492",
+          "product_category": "Personal Loan",
+          "company": "Social Finance, Inc.",
+          "issue": "Getting a line of credit",
+          "similarity_score": 0.4311,
+          "excerpt": "completing all prompts within their given options. the above is a false statement wrt all terms, conditions, and disclosures made to the consumer. deceptive practices. their stated reason during a pho"
+        },
+        {
+          "complaint_id": "2778153",
+          "product_category": "Personal Loan",
+          "company": "TMX Finance LLC",
+          "issue": "Problem with the payoff process at the end of the loan",
+          "similarity_score": 0.3727,
+          "excerpt": "conditions and material facts in their agreement. in combination with these three 3 misleading and unethical business practices marketing, sales pitch, agreement , i feel that the loan process agreeme"
+        }
+      ],
+      "generation_error": false,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b523b-5b6efdbf1b49dbf14c23553b;1120ccfe-cea2-491d-9d71-c0c30178b0f4)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "sa-01",
+      "category": "Savings Account",
+      "question": "What problems are customers having with savings accounts?",
+      "answer": "Customers are experiencing issues such as being unable to withdraw funds from their savings accounts, account freezes without sufficient verification, and being locked into poor interest rates without proper notice. These issues are causing financial hardships and leading to customer dissatisfaction.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "10910611",
+          "product_category": "Savings Account",
+          "company": "BARCLAYS BANK DELAWARE",
+          "issue": "Managing an account",
+          "similarity_score": 0.3435,
+          "excerpt": "in to our savings account, but so far, no success. no bank should treat customers in the way weve been treated. we have had this account since . for an established customer to be unable to withdraw fu"
+        },
+        {
+          "complaint_id": "2694500",
+          "product_category": "Savings Account",
+          "company": "U.S. BANCORP",
+          "issue": "Managing an account",
+          "similarity_score": 0.3001,
+          "excerpt": "issues. they are taking my money and im in a trap. i will have to borrow money to pay off the account completely before i end up owing thousands more."
+        }
+      ],
+      "generation_error": false,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b523d-06d2732c2be2e65161f59b5b;1ddcf922-b813-4a81-831c-10c944ed6df3)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "sa-02",
+      "category": "Savings Account",
+      "question": "Are customers complaining about unexpected fees on their savings accounts?",
+      "answer": "I'm having trouble reaching the answer-generation service right now. Please try again in a moment. If this keeps happening, the retrieved sources below are still a good starting point.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "3791508",
+          "product_category": "Savings Account",
+          "company": "BANK OF AMERICA, NATIONAL ASSOCIATION",
+          "issue": "Managing an account",
+          "similarity_score": 0.461,
+          "excerpt": "cluded on a small line on one of my statements ''. this should have been sent out as a big bank notification, like they send me an email every time my account is low. they also could have sent out a s"
+        },
+        {
+          "complaint_id": "11897139",
+          "product_category": "Savings Account",
+          "company": "TD BANK US HOLDING COMPANY",
+          "issue": "Problem caused by your funds being low",
+          "similarity_score": 0.406,
+          "excerpt": "formal complaint regarding excessive fees on my account dear td bank customer service, i am writing to formally dispute the excessive fees that have been charged to my account since its opening. despi"
+        }
+      ],
+      "generation_error": true,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b523e-05913c6a01b908440b6e9631;05b5adfd-1aa2-4f3d-a0b6-eb276392506f)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "sa-03",
+      "category": "Savings Account",
+      "question": "Do customers report issues accessing funds in their savings accounts?",
+      "answer": "I'm having trouble reaching the answer-generation service right now. Please try again in a moment. If this keeps happening, the retrieved sources below are still a good starting point.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "10910611",
+          "product_category": "Savings Account",
+          "company": "BARCLAYS BANK DELAWARE",
+          "issue": "Managing an account",
+          "similarity_score": 0.3373,
+          "excerpt": "in to our savings account, but so far, no success. no bank should treat customers in the way weve been treated. we have had this account since . for an established customer to be unable to withdraw fu"
+        },
+        {
+          "complaint_id": "11581656",
+          "product_category": "Savings Account",
+          "company": "NAVY FEDERAL CREDIT UNION",
+          "issue": "Problem caused by your funds being low",
+          "similarity_score": 0.3033,
+          "excerpt": "ite there initially being available funds in the account. i believe these practices are unfair and request an investigation into my account transactions."
+        }
+      ],
+      "generation_error": true,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b523e-161be0475a38a8dd47a63561;49ffb7d3-9f58-4be6-98d2-044a415a208a)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "sa-04",
+      "category": "Savings Account",
+      "question": "What complaints exist about savings account closures?",
+      "answer": "I'm having trouble reaching the answer-generation service right now. Please try again in a moment. If this keeps happening, the retrieved sources below are still a good starting point.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "8093579",
+          "product_category": "Savings Account",
+          "company": "GOLDMAN SACHS BANK USA",
+          "issue": "Closing an account",
+          "similarity_score": 0.5739,
+          "excerpt": "i am writing to file a formal complaint against marcus ' savings, a financial institution under your jurisdiction. i am deeply dissatisfied with their recent actions concerning the closure of my savin"
+        },
+        {
+          "complaint_id": "2761123",
+          "product_category": "Money Transfer",
+          "company": "CITIZENS FINANCIAL GROUP, INC.",
+          "issue": "Fraud or scam",
+          "similarity_score": 0.5029,
+          "excerpt": "es with me on my account and i was forced to close my checking and savings account after being with that bank for over 20 years. since that just happened i am not providing details on that unless othe"
+        }
+      ],
+      "generation_error": true,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b523f-0eae74567ba3a2877717a378;0a1cf342-8c93-4261-bedc-45581432ed63)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "mt-01",
+      "category": "Money Transfer",
+      "question": "What issues are customers facing with money transfers?",
+      "answer": "I'm having trouble reaching the answer-generation service right now. Please try again in a moment. If this keeps happening, the retrieved sources below are still a good starting point.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "2802423",
+          "product_category": "Money Transfer",
+          "company": "Early Warning Services, LLC",
+          "issue": "Other transaction problem",
+          "similarity_score": 0.4334,
+          "excerpt": "les and money transfers rather than passing the entire burden to the customers to do that. moreover they negatively impacted all the customers. this is plain simple ridiculous. customer service seems "
+        },
+        {
+          "complaint_id": "11520794",
+          "product_category": "Money Transfer",
+          "company": "JPMORGAN CHASE & CO.",
+          "issue": "Confusing or misleading advertising or marketing",
+          "similarity_score": 0.4226,
+          "excerpt": "problems with money transfer, receiving and sending out."
+        }
+      ],
+      "generation_error": true,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b5240-0d435ee35df9b353174268b0;08887b2b-3ffa-49b7-99b2-9726e830af07)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "mt-02",
+      "category": "Money Transfer",
+      "question": "Are customers reporting delayed or failed money transfers?",
+      "answer": "I'm having trouble reaching the answer-generation service right now. Please try again in a moment. If this keeps happening, the retrieved sources below are still a good starting point.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "4859023",
+          "product_category": "Money Transfer",
+          "company": "XOOM CORPORATION",
+          "issue": "Other transaction problem",
+          "similarity_score": 0.3478,
+          "excerpt": "good day, my name is , new jersey, . i am complaing xoom money transfer company a company , , , ca , phone for delaying these 2 specific transactions and . those 2 transactions were initiated on and a"
+        },
+        {
+          "complaint_id": "8252398",
+          "product_category": "Credit Card",
+          "company": "Experian Information Solutions Inc.",
+          "issue": "Problem with a company's investigation into an existing problem",
+          "similarity_score": 0.322,
+          "excerpt": "ensuring prompt payments has always been my practice on this account, and i have never experienced delays. i am unsure about the reasons behind reports of late payment remarks on my accounts."
+        }
+      ],
+      "generation_error": true,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b5240-6600ddb640c32c647e5d1318;963f1b25-631a-4a83-8ba0-81cd9912f084)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "mt-03",
+      "category": "Money Transfer",
+      "question": "What complaints mention money being sent to the wrong recipient?",
+      "answer": "I'm having trouble reaching the answer-generation service right now. Please try again in a moment. If this keeps happening, the retrieved sources below are still a good starting point.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "11518054",
+          "product_category": "Money Transfer",
+          "company": "Early Warning Services, LLC",
+          "issue": "Unauthorized transactions or other transaction problem",
+          "similarity_score": 0.5741,
+          "excerpt": "money sent to wrong people without verification of recipient."
+        },
+        {
+          "complaint_id": "5427576",
+          "product_category": "Money Transfer",
+          "company": "WESTERN UNION COMPANY, THE",
+          "issue": "Money was not available when promised",
+          "similarity_score": 0.5229,
+          "excerpt": "two money transfers were sent via money transfer to a bank account overseas. the money never arrived to the intended recipients. after numerous attempts to resolve the situation and get a refund, they"
+        }
+      ],
+      "generation_error": true,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b5241-153869f320c5ec6471316bf7;eaaea212-c0c1-4b1a-b4eb-dd1ba118f5b7)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "mt-04",
+      "category": "Money Transfer",
+      "question": "Do customers complain about high fees on money transfers?",
+      "answer": "I'm having trouble reaching the answer-generation service right now. Please try again in a moment. If this keeps happening, the retrieved sources below are still a good starting point.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "2247944",
+          "product_category": "Money Transfer",
+          "company": "BANK OF AMERICA, NATIONAL ASSOCIATION",
+          "issue": "Wrong amount charged or received",
+          "similarity_score": 0.4113,
+          "excerpt": "i have copied this from case so you can see why i need to submit another complaint, please read all the way down and look into new attachments. the new one from boa, and all newest argument on list . "
+        },
+        {
+          "complaint_id": "3038210",
+          "product_category": "Savings Account",
+          "company": "REGIONS FINANCIAL CORPORATION",
+          "issue": "Managing an account",
+          "similarity_score": 0.3467,
+          "excerpt": "i have multiple accounts with regions bank, and have to transfer money regularly to maintain a positive balance. however every time i manually transfer money to avoid overdraft fees, they make the tra"
+        }
+      ],
+      "generation_error": true,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b5242-465a8cf51ddd3a2732886ed7;4e6ac81c-e9b0-4beb-85f0-531c1c12fbfc)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "cross-01",
+      "category": "Cross-category",
+      "question": "How are customers describing their customer service experience?",
+      "answer": "I'm having trouble reaching the answer-generation service right now. Please try again in a moment. If this keeps happening, the retrieved sources below are still a good starting point.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "5418360",
+          "product_category": "Credit Card",
+          "company": "CLGF Holdco 1, LLC",
+          "issue": "Trouble using your card",
+          "similarity_score": 0.2877,
+          "excerpt": "ation of their customers."
+        },
+        {
+          "complaint_id": "7383825",
+          "product_category": "Credit Card",
+          "company": "TD BANK US HOLDING COMPANY",
+          "issue": "Problem when making payments",
+          "similarity_score": 0.2693,
+          "excerpt": "occurrence for customers."
+        }
+      ],
+      "generation_error": true,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b5243-382dc0a17cc303ea4bc373ad;dc108e2c-80a3-49dd-b1a8-9c660eb49477)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    },
+    {
+      "id": "cross-02",
+      "category": "Cross-category",
+      "question": "What complaints mention long resolution times or lack of follow-up from the company?",
+      "answer": "I'm having trouble reaching the answer-generation service right now. Please try again in a moment. If this keeps happening, the retrieved sources below are still a good starting point.",
+      "retrieved_sources": [
+        {
+          "complaint_id": "13072304",
+          "product_category": "Savings Account",
+          "company": "Chime Financial Inc",
+          "issue": "Closing an account",
+          "similarity_score": 0.3296,
+          "excerpt": "y specific resolution you seeke.g., compensation, better support for customers, assurance that this will be rectified in the future. i hope you take this matter seriously and understand the impact it "
+        },
+        {
+          "complaint_id": "5273315",
+          "product_category": "Credit Card",
+          "company": "SYNCHRONY FINANCIAL",
+          "issue": "Other features, terms, or problems",
+          "similarity_score": 0.3038,
+          "excerpt": "resolution system and having excessive hold times for a customer service agent."
+        }
+      ],
+      "generation_error": true,
+      "retrieval_relevance": null,
+      "faithfulness": null,
+      "comment": "",
+      "judge_error": "(Request ID: Root=1-6a6b5243-7d3645224cd90abd716657c1;2561a641-08bf-40e1-afa3-e1dbac9b2a7f)\n\nBad request:\n{'message': \"The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled.\", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+    }
+  ]
+}

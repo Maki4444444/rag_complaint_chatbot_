@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cc-01",
+    "category": "Credit Card",
+    "question": "Why are customers unhappy with their credit cards?"
+  },
+  {
+    "id": "cc-02",
+    "category": "Credit Card",
+    "question": "What fraud or unauthorized-charge issues are credit card customers reporting?"
+  },
+  {
+    "id": "cc-03",
+    "category": "Credit Card",
+    "question": "Are customers complaining about being charged duplicate or incorrect fees on their credit cards?"
+  },
+  {
+    "id": "cc-04",
+    "category": "Credit Card",
+    "question": "What complaints exist about credit card interest rate changes or billing disputes?"
+  },
+  {
+    "id": "pl-01",
+    "category": "Personal Loan",
+    "question": "What are the main complaints about personal loans?"
+  },
+  {
+    "id": "pl-02",
+    "category": "Personal Loan",
+    "question": "Are customers reporting issues with personal loan repayment or servicing?"
+  },
+  {
+    "id": "pl-03",
+    "category": "Personal Loan",
+    "question": "What complaints mention being denied a personal loan unfairly?"
+  },
+  {
+    "id": "pl-04",
+    "category": "Personal Loan",
+    "question": "Do customers report unclear or misleading personal loan terms?"
+  },
+  {
+    "id": "sa-01",
+    "category": "Savings Account",
+    "question": "What problems are customers having with savings accounts?"
+  },
+  {
+    "id": "sa-02",
+    "category": "Savings Account",
+    "question": "Are customers complaining about unexpected fees on their savings accounts?"
+  },
+  {
+    "id": "sa-03",
+    "category": "Savings Account",
+    "question": "Do customers report issues accessing funds in their savings accounts?"
+  },
+  {
+    "id": "sa-04",
+    "category": "Savings Account",
+    "question": "What complaints exist about savings account closures?"
+  },
+  {
+    "id": "mt-01",
+    "category": "Money Transfer",
+    "question": "What issues are customers facing with money transfers?"
+  },
+  {
+    "id": "mt-02",
+    "category": "Money Transfer",
+    "question": "Are customers reporting delayed or failed money transfers?"
+  },
+  {
+    "id": "mt-03",
+    "category": "Money Transfer",
+    "question": "What complaints mention money being sent to the wrong recipient?"
+  },
+  {
+    "id": "mt-04",
+    "category": "Money Transfer",
+    "question": "Do customers complain about high fees on money transfers?"
+  },
+  {
+    "id": "cross-01",
+    "category": "Cross-category",
+    "question": "How are customers describing their customer service experience?"
+  },
+  {
+    "id": "cross-02",
+    "category": "Cross-category",
+    "question": "What complaints mention long resolution times or lack of follow-up from the company?"
+  }
+]
