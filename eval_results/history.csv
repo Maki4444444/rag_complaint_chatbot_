@@ -1,0 +1,2 @@
+run_timestamp,n_total,n_scored,avg_retrieval_relevance,avg_faithfulness,pct_faithful_ge_4,meets_faithfulness_target,results_file
+2026-07-30T13:31:47.921758+00:00,18,0,,,,False,results_2026-07-30T13-31-47.921758+00-00.json
